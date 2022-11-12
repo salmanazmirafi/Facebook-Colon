@@ -1,4 +1,5 @@
 const Post = require("../modules/postModels");
+const User = require("../modules/userModels");
 
 // Crate Post
 exports.postCrate = async (req, res) => {
@@ -95,4 +96,19 @@ exports.singlePost = async (req, res) => {
 };
 
 // Get timeline Post
-exports.timelinePost = async (req, res) => {};
+exports.timelinePost = async (req, res) => {
+  try {
+    const currentId = await User.findById(req.body.userId);
+    const postUser = await Post.find({ userId: currentId._id });
+    const frinPost = await Promise.all(
+      currentId.following.map((friendId) => {
+        return Post.find({ userId: friendId });
+      })
+    );
+    res.json(postUser.concat(...frinPost));
+  } catch (error) {
+    res.status(500).json({
+      message: "Worng",
+    });
+  }
+};
