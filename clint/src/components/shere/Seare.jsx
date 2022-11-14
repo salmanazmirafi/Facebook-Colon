@@ -17,20 +17,20 @@ function Seare() {
         <div className="shareBottom">
           <div className="sharePositions">
             <div className="shareOption">
-              <i class="fa-solid fa-photo-film"></i>
-              <span className="shareOptionText">Photo or Video</span>
+              <i className="fa-solid fa-photo-film"></i>
+              <span className="shareOptionText">Photo/Video</span>
             </div>
             <div className="shareOption">
-              <i class="fa-solid fa-tag"></i>
+              <i className="fa-solid fa-tag"></i>
               <span className="shareOptionText">Tag</span>
             </div>
             <div className="shareOption">
-              <i class="fa-solid fa-location-pin"></i>
-              <span className="shareOptionText">Photo or Video</span>
+              <i className="fa fa-location-dot"></i>
+              <span className="shareOptionText">Location</span>
             </div>
             <div className="shareOption">
-              <i class="fa-solid fa-face-smile"></i>
-              <span className="shareOptionText">Photo or Video</span>
+              <i className="fa-solid fa-face-smile"></i>
+              <span className="shareOptionText">Feeling/activity</span>
             </div>
           </div>
           <div className="shareButton">Share</div>

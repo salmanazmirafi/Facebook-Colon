@@ -1,8 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import { Users } from "../../dumiData";
 import "./post.css";
 
 const Post = ({ post }) => {
+  const [like, setLike] = useState(post.like);
+  const [islike, setIslike] = useState(false);
+
+  const likeHandaler = () => {
+    setLike(islike ? like - 1 : like + 1);
+    setIslike(!islike);
+  };
+
   return (
     <div className="post">
       <div className="postWrapper">
@@ -19,7 +27,7 @@ const Post = ({ post }) => {
             <span className="postDate">{post.date}</span>
           </div>
           <div className="postRight">
-            <i class="fa-solid fa-ellipsis-vertical"></i>
+            <i className="fa-solid fa-ellipsis-vertical"></i>
           </div>
         </div>
         <div className="postCenter">
@@ -28,17 +36,17 @@ const Post = ({ post }) => {
         </div>
         <div className="postBottom">
           <div className="postLike">
-            <i className="i1 fa-solid fa-heart"></i>
-            <span>{post.like}</span>
+            <i className="i1 fa-solid fa-heart" onClick={likeHandaler}></i>
+            <span>{like} people like it</span>
           </div>
           <div className="postLike">
-            <i class="i2 fa-solid fa-comment"></i>
-            <span>{post.comment}</span>
+            <i className="i2 fa-solid fa-comment"></i>
+            <span>{post.comment} comments</span>
           </div>
           <div className="postLike">
             {" "}
-            <i class="i3 fa-solid fa-share"></i>
-            <span>1k</span>
+            <i className="i3 fa-solid fa-share"></i>
+            <span>1k Share</span>
           </div>
         </div>
       </div>
