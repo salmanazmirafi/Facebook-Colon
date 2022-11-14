@@ -7,7 +7,7 @@ export default function SingIn() {
         <div className="loginLeft">
           <h3 className="loginLogo">Facebook</h3>
           <span className="loginDesc">
-            Connect with friends and the world around you on Lamasocial.
+            Connect with friends and the world around you on Facebook.
           </span>
         </div>
         <div className="loginRight">
