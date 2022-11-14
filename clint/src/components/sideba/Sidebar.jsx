@@ -61,39 +61,39 @@ const Sidebar = () => {
           <hr className="sideht" />
           <ul className="sidebarfrind">
             <li className="sidebarfrindItem">
-              <img className="frindImage" src="/assets/1.png" alt="" />
+              <img className="frindImage" src="/assets/1.jpg" alt="" />
               <span className="frindName">Jon De</span>
             </li>
             <li className="sidebarfrindItem">
-              <img className="frindImage" src="/assets/1.png" alt="" />
+              <img className="frindImage" src="/assets/1.jpg" alt="" />
               <span className="frindName">Jon De</span>
             </li>
             <li className="sidebarfrindItem">
-              <img className="frindImage" src="/assets/1.png" alt="" />
+              <img className="frindImage" src="/assets/1.jpg" alt="" />
               <span className="frindName">Jon De</span>
             </li>
             <li className="sidebarfrindItem">
-              <img className="frindImage" src="/assets/1.png" alt="" />
+              <img className="frindImage" src="/assets/1.jpg" alt="" />
               <span className="frindName">Jon De</span>
             </li>
             <li className="sidebarfrindItem">
-              <img className="frindImage" src="/assets/1.png" alt="" />
+              <img className="frindImage" src="/assets/1.jpg" alt="" />
               <span className="frindName">Jon De</span>
             </li>
             <li className="sidebarfrindItem">
-              <img className="frindImage" src="/assets/1.png" alt="" />
+              <img className="frindImage" src="/assets/1.jpg" alt="" />
               <span className="frindName">Jon De</span>
             </li>
             <li className="sidebarfrindItem">
-              <img className="frindImage" src="/assets/1.png" alt="" />
+              <img className="frindImage" src="/assets/1.jpg" alt="" />
               <span className="frindName">Jon De</span>
             </li>
             <li className="sidebarfrindItem">
-              <img className="frindImage" src="/assets/1.png" alt="" />
+              <img className="frindImage" src="/assets/1.jpg" alt="" />
               <span className="frindName">Jon De</span>
             </li>
             <li className="sidebarfrindItem">
-              <img className="frindImage" src="/assets/1.png" alt="" />
+              <img className="frindImage" src="/assets/1.jpg" alt="" />
               <span className="frindName">Jon De</span>
             </li>
           </ul>
