@@ -55,3 +55,23 @@
 .sideht {
   margin: 20px 0;
 }
+.sidebarfrind {
+  list-style: none;
+}
+.sidebarfrindItem {
+  display: flex;
+  align-items: center;
+}
+.frindImage {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.frindName {
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: -10px;
+}

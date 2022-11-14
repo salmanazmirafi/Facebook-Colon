@@ -57,7 +57,46 @@ const Sidebar = () => {
           </li>
 
           <button className="sidebarButton">Show More</button>
+
           <hr className="sideht" />
+          <ul className="sidebarfrind">
+            <li className="sidebarfrindItem">
+              <img className="frindImage" src="/assets/1.png" alt="" />
+              <span className="frindName">Jon De</span>
+            </li>
+            <li className="sidebarfrindItem">
+              <img className="frindImage" src="/assets/1.png" alt="" />
+              <span className="frindName">Jon De</span>
+            </li>
+            <li className="sidebarfrindItem">
+              <img className="frindImage" src="/assets/1.png" alt="" />
+              <span className="frindName">Jon De</span>
+            </li>
+            <li className="sidebarfrindItem">
+              <img className="frindImage" src="/assets/1.png" alt="" />
+              <span className="frindName">Jon De</span>
+            </li>
+            <li className="sidebarfrindItem">
+              <img className="frindImage" src="/assets/1.png" alt="" />
+              <span className="frindName">Jon De</span>
+            </li>
+            <li className="sidebarfrindItem">
+              <img className="frindImage" src="/assets/1.png" alt="" />
+              <span className="frindName">Jon De</span>
+            </li>
+            <li className="sidebarfrindItem">
+              <img className="frindImage" src="/assets/1.png" alt="" />
+              <span className="frindName">Jon De</span>
+            </li>
+            <li className="sidebarfrindItem">
+              <img className="frindImage" src="/assets/1.png" alt="" />
+              <span className="frindName">Jon De</span>
+            </li>
+            <li className="sidebarfrindItem">
+              <img className="frindImage" src="/assets/1.png" alt="" />
+              <span className="frindName">Jon De</span>
+            </li>
+          </ul>
         </ul>
       </div>
     </div>
