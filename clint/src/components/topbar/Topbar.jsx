@@ -1,11 +1,14 @@
 import "./topbar.css";
-import profile from "../../assets/Untitled.jpg";
+import profile from "../../photo/Untitled.jpg";
+import { Link } from "react-router-dom";
 
 const Topbar = () => {
   return (
     <div className="topbarContainer">
       <div className="topbarLeft">
-        <span className="logo">Facebook</span>
+        <Link to="/">
+          <span className="logo">Facebook</span>
+        </Link>
       </div>
       <div className="topBarCenter">
         <div className="serchbar">

@@ -1,6 +1,6 @@
 import React from "react";
 import "./sidebar.css";
-import profile from "../../assets/Untitled.jpg";
+import profile from "../../photo/Untitled.jpg";
 import { Users } from "../../dumiData";
 import CloseFrind from "../closeFriend/CloseFrind";
 

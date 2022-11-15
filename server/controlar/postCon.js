@@ -98,7 +98,7 @@ exports.singlePost = async (req, res) => {
 // Get timeline Post
 exports.timelinePost = async (req, res) => {
   try {
-    const currentId = await User.findById(req.body.userId);
+    const currentId = await User.findById(req.params.userId);
     const postUser = await Post.find({ userId: currentId._id });
     const frinPost = await Promise.all(
       currentId.following.map((friendId) => {

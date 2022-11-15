@@ -21,6 +21,6 @@ postRoute.put("/:id/like", postLike);
 // get single post
 postRoute.get("/:id", singlePost);
 // get Timeline Post
-postRoute.get("/timeline/all", timelinePost);
+postRoute.get("/timeline/:userId", timelinePost);
 
 module.exports = postRoute;
